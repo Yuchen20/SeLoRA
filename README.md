@@ -1,14 +1,27 @@
-# SeLoRA
-repository for SeLoRA code presentation 
+# SeLoRA Repository
 
-the code contain the entire training procedure, modification of variable 
+This repository serves as a presentation of the SeLoRA codebase.
 
-Main_Path : path where the dataset folder is at
-Data_storage : datasets path under the main path
-save_result_path : path to save the result
-folder_name: the folder that the result of current experiment will be saved at.
+The code encompasses the entire training procedure. Variable listed below needs to be modified for your sepecified dataset.
 
-The Datasets section also need modification for the sepecific datasets.
-reports: pd.Dataframe that have two column, 
-  filename: the file name of each image
-  findings: the prompt corresponding to the image
+### Key Variables:
+
+- **Main_Path**: The path to the folder containing the dataset.
+  
+- **Data_storage**: The path to the datasets under the main path.
+
+- **save_result_path**: The path for saving the results.
+
+- **folder_name**: The folder where the results of the current experiment will be stored.
+
+### Dataset Configuration:
+
+Make sure to modify the Datasets section for specific dataset configurations.
+
+### Reports:
+
+The 'reports' section consists of a `pd.Dataframe` with two columns:
+
+- **filename**: The file name of each image.
+
+- **findings**: The prompt corresponding to the image.
