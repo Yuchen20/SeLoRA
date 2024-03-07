@@ -18,9 +18,9 @@ The code encompasses the entire training procedure. Variable listed below needs 
 
 Make sure to modify the Datasets section for specific dataset configurations.
 
-### Reports:
+### Reports variable:
 
-The 'reports' section consists of a `pd.Dataframe` with two columns:
+The 'reports' variable is a `pd.Dataframe` with two columns:
 
 - **filename**: The file name of each image.
 
